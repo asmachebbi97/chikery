@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- contact-us31:54-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Chikery</title><link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i,400,400i,500,500i,600,600i,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/slick/slick/slick.css">
+    <link rel="stylesheet" href="plugins/lightGallery-master/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+    <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="plugins/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="plugins/chikery-icon/style.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/function.js"></script>
+	<script src="js/cute-alert.js"></script>
+	<script src="sweetAlert/dist/sweetalert2.all.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+	<link rel="stylesheet" href="sweetAlert/dist/sweetalert2.min.css">
+
+  </head>
+  <body >
+ 
+	
+    <header class="header header--default header--home-4 line"  style="background-color:white;" data-sticky="true">
+      <div class="header__left">
+        <ul class="ps-list--social">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+     
+	 
+	  <div class="header__center">
+        <nav class="header__navigation left">
+          <ul class="menu">
+            <li><a href="homepage.html">Home</a></li>
+            <li class="menu-item-has-children"><a href="shop.html">Shop</a><span class="sub-toggle"><i class="fa fa-angle-down"></i></span></li>
+                 <li class="menu-item-has-children"><a href="Book.html">Book</a><span class="sub-toggle"><i class="fa fa-angle-down"></i></span></li>
+            
+            
+          </ul>
+        </nav>
+		
+        <div class="header__logo"><a class="ps-logo" href="homepage.html"><img src="img/logo.png" alt=""></a></div>
+        <nav class="header__navigation right">
+          <ul class="menu">
+		  
+           
+            <li><a href="about-us.html">About us</a>
+            </li>
+			
+            <li><a href="contact-us.html">Contact us</a></li>
+			<li><a href="signUp.html">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+	  
+	  
+      <div class="header__right">
+        <div class="header__actions">  <div>
+          <div class="ps-cart--mini"><a >  </a>
+            <div  class="ps-cart__content">
+             
+              <div class="ps-cart__footer">
+                <figure><a class="ps-btn" href="signin.html">Login</a><a class="ps-btn ps-btn--dark" href="signup.html">Signup</a></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    
+
+    <div class="navigation--list">
+      <div class="navigation__content"><a class="navigation__item active" href="index-2.html"><i class="fa fa-home"></i></a><a class="navigation__item ps-toggle--sidebar" href="#navigation-mobile"><i class="fa fa-bars"></i></a><a class="navigation__item ps-toggle--sidebar" href="#search-sidebar"><i class="fa fa-search"></i></a><a class="navigation__item ps-toggle--sidebar" href="#cart-mobile"><i class="fa fa-shopping-basket"></i></a></div>
+    </div>
+    <!--include search-sidebar-->
+    <div class="ps-page--contact">
+      <div class="ps-hero bg--cover" >
+        <div class="ps-hero__container" style="background-image: url('img/hero/shop-hero.png');width:3000%; height: 489px; margin-top:6.5%;margin-left:-10%;padding-left:-25%;">
+          <div class="ps-breadcrumb">
+            <ul class="breadcrumb">
+              <li><a href="homepage.html">Home</a></li>
+              <li>Login</li>
+            </ul>
+          </div>
+          <h1 class="ps-hero__heading">Login</h1>
+        </div>
+      </div>
+	  </div>
+	  
+     
+	   <div style=" margin-left:10%;width:40%;height:500px;" >
+	   
+<h3 style="font-family:'Cormorant Garamond','serif';font-size:35px; padding-left:40%;padding-top:3%;margin-top:10%; color:#21202d;">  Login </h3>
+<iframe name="content" style="">
+</iframe>
+ <form  class="form-style-4" style="float:left; " id="login" name="login" action="signin.php"  method="post" target="content" >
+<label>
+<span>Username</span>
+<input type="text" name="username"  required="true" />
+</label>
+
+
+<label>
+<span>Password</span>
+<input type="password" name="password"   required="true"/>
+</label>
+<label>
+<span> </span>
+<input type="submit" value="Login" id="submit1" />
+</label>
+</form>
+ <?php include("signin.php");  ?>
+</div>
+ <div id="results" style="width:100%"></div>
+
+
+
+  
+  <div style="margin-right:8%;width:40%;height:590px;float:right; margin-top:-31.7%; " >
+ 
+<h3 style="font-family:'Cormorant Garamond','serif';font-size:35px; padding-left:35%;padding-top:3%;color:#21202d;"> Create an account </h3>
+<iframe name="content1" style="">
+</iframe>
+<form class="form-style-4"  name="sub"  action="signup.php" method="post" target="content1" >
+
+<label>
+<span>Username</span>
+<input type="text" name="username1" required="true" />
+</label>
+
+<label>
+<span>Email</span>
+<input type="email" name="email" required="true" />
+</label>
+
+
+<label>
+<span>Address</span>
+<input type="text" name="address" required="true" />
+</label>
+
+<label>
+<span>birthday</span>
+<input   name="birthdate" required="true"  type="date" />
+</label>
+
+<label>
+<span>Password</span>
+<input name="password1" type="password" required="true">
+</label>
+<label>
+<span> </span>
+<input type="submit" value="subscribe" id="submit2" />
+</label>
+</form>
+<?php include("signup.php");  ?>
+</div>
+   
+	
+    <footer class="ps-footer ps-footer--dark" style="margin-top:15%;">
+      <div class="ps-footer__content">
+        <div class="container">
+          <div class="ps-footer__left">
+            <form class="ps-form--footer-subscribe"   method="get">
+              <h3>Get news & offer</h3>
+              <p>Sign up for our mailing list to get latest update and offers</p>
+              <div class="form-group--inside">
+                <input class="form-control" type="text" placeholder="Your email...">
+                <button onclick="Sweetclick()"><i class="fa fa-arrow-right"></i></button>
+              </div>
+              <p>* Don't worry, we never spam</p>
+            </form>
+          </div>
+          <div class="ps-footer__center">
+            <div class="ps-site-info"><a class="ps-logo" href="homepage.html"><img src="img/logo.png" alt=""></a>
+               <p>Tunis</p>
+              <p>Email:<a href="#"> <span class="__cf_email__" data-cfemail="462f28202906282933322e232b23356825292b">chakery@gmail.com</span></a></p>
+              <p>Phone:<span class="ps-hightlight"> +216 24 588 792</span></p>
+            </div>
+          </div>
+          <div class="ps-footer__right">
+            <aside class="widget widget_footer">
+              <h3 class="widget-title">Opening Time</h3>
+              <p>Monday - Friday:  <span>08:00 am - 08:30 pm</span></p>
+              <p>Saturday - Sunday:  <span>10:00 am - 16:30 pm</span></p>
+              <ul class="ps-list--payment-method">
+                <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+                <li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+                <li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+                <li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <div class="ps-footer__bottom">
+        <div class="container">
+          <ul class="ps-list--social">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+          </ul>
+         
+        </div>
+      </div>
+    </footer>
+    <div id="back2top"><i class="pe-7s-angle-up"></i></div>
+    <div class="ps-site-overlay"></div>
+    <div id="loader-wrapper">
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <div class="ps-search" id="site-search"><a class="ps-btn--close" href="#"></a>
+      <div class="ps-search__content">
+        <form class="ps-form--primary-search" action="#"  method="post">
+          <input class="form-control" type="text" placeholder="Search for...">
+          <button><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <!-- Plugins-->
+    <script src="plugins/jquery-1.12.4.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/bootstrap4/js/bootstrap.min.js"></script>
+    <script src="plugins/imagesloaded.pkgd.js"></script>
+    <script src="plugins/masonry.pkgd.min.js"></script>
+    <script src="plugins/isotope.pkgd.min.js"></script>
+    <script src="plugins/jquery.matchHeight-min.js"></script>
+    <script src="plugins/slick/slick/slick.min.js"></script>
+    <script src="plugins/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+    <script src="plugins/slick-animation.min.js"></script>
+    <script src="plugins/lightGallery-master/dist/js/lightgallery-all.min.js"></script>
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="plugins/sticky-sidebar/dist/sticky-sidebar.min.js"></script>
+    <script src="plugins/jquery.slimscroll.min.js"></script>
+    <script src="plugins/select2/dist/js/select2.full.min.js"></script>
+    <script src="plugins/gmap3.min.js"></script>
+    <!-- Custom scripts-->
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxflHHc5FlDVI-J71pO7hM1QJNW1dRp4U&amp;region=GB"></script>
+  </body>
+
+<!-- contact-us31:54-->
+</html>
